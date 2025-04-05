@@ -1,0 +1,17 @@
+name: My Custom Theme
+type: theme
+description: "A custom theme built for Drupal 10 screening task."
+core_version_requirement: ^10
+package: Custom
+base theme: false
+
+libraries:
+  - mytheme/global-styling
+
+regions:
+  top_banner: "Top Banner"
+  logo: "Logo"
+  primary_menu: "Navigation Menu"
+  sidebar_first: "Left Sidebar"
+  content: "Content"
+  footer: "Footer"
